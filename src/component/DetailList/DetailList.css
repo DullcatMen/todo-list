@@ -1,0 +1,32 @@
+#detail-list {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  left: 1px;
+  background-color: #fff;
+}
+
+#detail-list .btn-back {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 2px 3px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+#detail-list ul {
+  padding-top: 100px;
+  overflow-y: auto;
+}
+
+#detail-list ul li {
+  text-align: left;
+  padding: 10px 15px;
+}
+
+#detail-list ul li.over {
+  color: #999;
+  text-decoration: line-through;
+}

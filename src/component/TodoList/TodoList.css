@@ -1,0 +1,25 @@
+#todo-list {
+  height: 425px;
+  overflow: hidden;
+  padding-top: 25px;
+  padding-left: 15px;
+}
+
+.todo-list-item {
+  border-bottom: 1px dashed #000;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.btn-finish {
+  margin-right: 10px;
+  padding: 2px 5px;
+  background-color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.btn-finish:hover {
+  background-color: #000;
+  color: #fff;
+}
