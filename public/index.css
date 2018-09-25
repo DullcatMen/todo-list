@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+#app {
+  position: relative;
+  text-align: center;
+  width: 350px;
+  height: 600px;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+
+#header {
+  position: relative;
+  height: 150px;
+  line-height: 150px;
+  background-color: #63B8FF;
+}
+
+#header h1 {
+  font-size: 24px;
+  font-weight: initial;
+}
+
+#header .btn-all {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  width: 40px;
+  text-align: center;
+  line-height: 0;
+  font-size: 12px;
+  line-height: 16px;
+  border: 1px solid rgb(3, 158, 158);
+  color: #fff;
+  background-color: #000;
+}
+
+#header .btn-add {
+  position: absolute;
+  top: 125px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid rgb(3, 158, 158);
+  border-radius: 50%;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 12px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#header .btn-add:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/*tasks*/
+#tasks {
+  height: 425px;
+  overflow: hidden;
+  padding-top: 25px;
+  padding-left: 15px;
+}
+
+#tasks .task {
+  border-bottom: 1px dashed #000;
+  text-align: left;
+  padding: 10px 0;
+}
+
+#tasks .task .btn-finish {
+  margin-right: 10px;
+  padding: 2px 5px;
+  background-color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+#tasks .task .btn-finish:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/*list*/
+#list {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  left: 1px;
+  background-color: #fff;
+}
+
+#list .btn-back {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 50px;
+  text-align: center;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+#list ul {
+  padding-top: 100px;
+  overflow-y: auto;
+}
+
+#list ul li {
+  text-align: left;
+  padding: 10px 15px;
+}
+
+#list ul li.done {
+  color: #999;
+  text-decoration: line-through;
+}
+
+/*add*/
+#add {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#add .add-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  background-color: #fff;
+  padding: 25px;
+}
+
+#add .add-box input {
+  padding-left: 10px;
+  line-height: 25px;
+  border: 1px solid #999;
+}
+
+#add .add-box .btn-box {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#add .add-box .btn-box .btn {
+  display: inline-block;
+  border: 1px solid #000;
+  width: 60px;
+  font-size: 12px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+#add .add-box .btn-box .btn:hover {
+  border-color: #63B8FF;
+  color:#63B8FF;
+}
